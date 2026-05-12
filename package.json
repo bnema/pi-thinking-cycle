@@ -1,0 +1,48 @@
+{
+  "name": "pi-thinking-cycle",
+  "version": "0.1.0",
+  "description": "Pi package that binds Ctrl+Shift+T to cycle the active thinking level.",
+  "license": "MIT",
+  "author": "bnema",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "thinking",
+    "reasoning",
+    "shortcut"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnema/pi-thinking-cycle.git"
+  },
+  "homepage": "https://github.com/bnema/pi-thinking-cycle#readme",
+  "bugs": {
+    "url": "https://github.com/bnema/pi-thinking-cycle/issues"
+  },
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE",
+    "tsconfig.json"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}
