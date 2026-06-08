@@ -1,15 +1,14 @@
 {
   "name": "pi-thinking-cycle",
   "version": "0.1.0",
-  "description": "Pi package that binds Ctrl+Shift+T to cycle the active thinking level.",
+  "description": "Cycle Pi thinking levels with one shortcut.",
   "license": "MIT",
   "author": "bnema",
   "type": "module",
   "keywords": [
-    "pi-package",
     "pi",
+    "pi-extension",
     "thinking",
-    "reasoning",
     "shortcut"
   ],
   "repository": {
