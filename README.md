@@ -34,6 +34,8 @@ The cycle is:
 off → minimal → low → medium → high → xhigh → off
 ```
 
+The active model may support fewer effective levels. In that case Pi clamps unsupported values and this extension keeps cycling to the next level that actually changes.
+
 ## Develop
 
 ```bash
